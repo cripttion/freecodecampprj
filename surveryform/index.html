@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Survey form</title>
+</head>
+<body>
+  <div class="heading">
+  	<h1 id="title">Freecodecamp survey form</h1>
+  	 <p id="description">Thankyou for taking the time to help us to improve the platform</p>
+  </div>
+<div class="form" id="survey-form">
+	<form>
+		<label for="name">Name</label>
+		<input placeholder="Enter your name" id = "name" type="text" name="name" for="name"><br>
+
+		<label for="email">Email</label>
+		<input placeholder="Enter your Email" type="email" name="email" required><br>
+         
+        <label for="age" >Age</label>
+        <input type="number" name="age" placeholder="Age" max="99" min="10"><br>
+
+        <label for="role">Which option best describes your current role?</label>
+        <br>
+
+         <select name="role" id=role>
+         	<option>Student</option>
+         	<option>Full Time Job</option>
+         	<option>Full Time Learner</option>
+         	<option>Prefer not to say</option>
+         	<option>Option</option>
+         </select>
+         <br>
+
+        <label for="recomendation">Would you recommend freeCodeCamp to a friend</label><br>
+        <input type="radio" name="definitely" value="definitely">
+        <label for="difinitely">Definitely</label><br>
+
+        <input type="radio" name="definitely" value="maybe">
+        <label for="maybe">Maybe</label><br>
+
+        <input type="radio" name="definitely" value="notsure">
+        <label for="notsure">Not sure</label>
+
+
+        <button type="submit" name="submit" value="submit" id="submit">submit</button>
+
+	</form>
+</div>
+
+</body>
+</html>
